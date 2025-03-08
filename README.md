@@ -1,10 +1,13 @@
 # Online-Food-Order-Prediction
 
-# Overview
+*Overview*
+
 
 This project aims to predict whether a customer will order food online based on various demographic and behavioral factors. The dataset used includes attributes such as age, gender, occupation, income, and location details.
 
+
 *Dataset*
+
 
 The dataset contains 388 entries with 13 features:
 
@@ -34,7 +37,9 @@ Feedback (Categorical)
 
 Unnamed: 12 (Categorical)
 
+
 *Data Preprocessing*
+
 
 Checked for missing values and found none.
 
@@ -42,7 +47,9 @@ Converted categorical variables into numerical form using label encoding.
 
 Identified correlations between numerical features using heatmaps.
 
+
 *Machine Learning Models*
+
 
 The following models were trained and evaluated on the dataset:
 
@@ -56,7 +63,9 @@ Support Vector Machine (SVM)
 
 AdaBoost Classifier
 
+
 *Model Evaluation*
+
 
 Each model was assessed using:
 
@@ -66,7 +75,9 @@ Classification Report (Precision, Recall, F1-Score)
 
 Confusion Matrix
 
+
 *Key Findings*
+
 
 Naïve Bayes: Achieved 100% accuracy.
 
@@ -78,7 +89,9 @@ SVM: Accuracy of 76.28%, but had issues with precision.
 
 AdaBoost Classifier: Achieved 100% accuracy.
 
+
 *Dependencies*
+
 
 Python 3.x
 
@@ -92,7 +105,9 @@ Seaborn
 
 Scikit-learn
 
+
 *Running the Code*
+
 
 Ensure all dependencies are installed using:
 
@@ -104,7 +119,9 @@ python online_food_order_prediction.py
 
 Modify the dataset file path if necessary.
 
+
 *Results Visualization*
+
 
 Feature correlations were analyzed using heatmaps.
 
